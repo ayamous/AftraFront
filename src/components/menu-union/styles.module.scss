@@ -1,0 +1,25 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-wrap: wrap;
+  > span {
+    max-width: 300px;
+    margin: 0 20px;
+  }
+}
+
+.button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.alignRight {
+}
+
+@media (max-width: 900px) {
+  .center {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,30 @@
+@import "../../_variables";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.formWrapper {
+  width: 100%;
+  max-width: 440px;
+  padding: 40px;
+  background: $light-gray-bg;
+  border-radius: 10px;
+}
+
+.loginButton {
+  text-align: center;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title {
+  text-align: center;
+}

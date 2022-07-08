@@ -1,0 +1,25 @@
+.container {
+  margin: 45px;
+  background: #ffffff;
+  box-shadow: 0 12px 44px rgba(0, 0, 0, 0.0743886);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px 20px;
+}
+
+.searchBar {
+  max-width: 300px;
+}
+
+.table {
+  background: #fff;
+  min-height: 500px;
+  padding: 15px;
+  td {
+    padding: 0 !important;
+  }
+}

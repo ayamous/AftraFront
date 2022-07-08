@@ -1,0 +1,47 @@
+.header {
+  display: block;
+  height: 66px;
+  background: transparent;
+  padding: 7px 40px;
+  box-sizing: border-box;
+  z-index: 10;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 5px;
+  height: 100%;
+  box-shadow: 0 12px 44px rgba(0, 0, 0, 0.0743886);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.bell {
+  text-align: center;
+}
+
+.name {
+  flex: 1 0 auto;
+  padding-right: 8px;
+}
+
+.avatar {
+  width: 40px;
+}
+
+.input {
+  border: none;
+}
+
+.separator {
+  margin: 0 14px;
+}

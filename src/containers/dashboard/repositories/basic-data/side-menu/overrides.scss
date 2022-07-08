@@ -1,0 +1,12 @@
+.ant-tabs {
+  height: 100%;
+}
+.ant-tabs > .ant-tabs-nav,
+.ant-tabs > div > .ant-tabs-nav {
+  background: #d3dee5;
+  height: calc(100vh - 132px);
+}
+
+.ant-tabs-left > .ant-tabs-nav .ant-tabs-tab {
+  margin: 0;
+}

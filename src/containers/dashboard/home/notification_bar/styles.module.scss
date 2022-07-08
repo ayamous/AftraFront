@@ -1,0 +1,30 @@
+@import "../../../../_variables.scss";
+
+.wrapper {
+  background: $base-color_op;
+  border-radius: 5px;
+  padding: 16px;
+
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 80px;
+  margin-right: 20px;
+}
+
+.header {
+  color: #fff;
+  margin: 0 0 8px 0;
+  line-height: 1.2;
+  font-size: 20px;
+}
+
+.paragraph {
+  color: #fff;
+  margin: 0;
+  line-height: 1.2;
+  height: 34px;
+  overflow: hidden;
+}

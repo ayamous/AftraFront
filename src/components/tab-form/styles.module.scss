@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.container {
+  background: #fff;
+  min-height: 500px;
+  padding: 15px;
+  td {
+    padding: 0 !important;
+  }
+}
+
+.additionArea {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  > span > :first-child {
+    margin-right: 10px;
+  }
+}
+
+.searchBar {
+  max-width: 300px;
+}
+
+.noTdPadding {
+  td {
+    padding: 0 !important;
+  }
+}
+
+.addWrapper {
+  padding: 20px;
+  margin: 20px;
+  background: #f2f4f5;
+  border: 1px solid #f0f0f0;
+}
+
+.downloadButton {
+  background: #10a0c1;
+  border-color: #10a0c1;
+  &:hover,
+  &:focus,
+  &:active {
+    background: #10a0c1;
+    border-color: #10a0c1;
+    filter: brightness(1.05);
+  }
+}
+
+.addButton {
+  color: #40bb93;
+  border-color: #40bb93;
+  &:hover,
+  &:focus,
+  &:active {
+    color: #40bb93;
+    border-color: #40bb93;
+    filter: brightness(1.05);
+  }
+}
+
+.addButtonMulti {
+  background: #40bb93;
+  border-color: #40bb93;
+  &:hover,
+  &:focus,
+  &:active {
+    background: #40bb93;
+    border-color: #40bb93;
+    filter: brightness(1.05);
+  }
+}

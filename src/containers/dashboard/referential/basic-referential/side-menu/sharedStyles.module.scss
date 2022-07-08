@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.container {
+  background: #fff;
+  min-height: 500px;
+  padding: 15px;
+}
+
+.additionArea {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  > span > :first-child {
+    margin: 0 10px;
+  }
+}
+
+.searchBar {
+  max-width: 300px;
+}
+
+.noTdPadding {
+  td {
+    padding: 0 !important;
+  }
+}
+
+.addWrapper {
+  padding: 20px;
+  margin: 20px;
+  background: #f2f4f5;
+  border: 1px solid #f0f0f0;
+}
+
+.disButton {
+  margin-right: 10px;
+}
+
+.downloadButton {
+  background: #10a0c1;
+  border-color: #10a0c1;
+}
+
+.addActions {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}

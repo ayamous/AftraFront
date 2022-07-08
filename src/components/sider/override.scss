@@ -1,0 +1,68 @@
+.ant-menu {
+  background: transparent;
+  color: #fff;
+}
+
+.ant-menu-submenu {
+  color: white;
+}
+.ant-menu-submenu-selected {
+  color: #fff;
+  background: #1d5e6d;
+}
+.ant-menu-item:hover,
+.ant-menu-submenu-title:hover {
+  color: #fff;
+  background: #1d5e6d;
+}
+.ant-menu-submenu-arrow {
+  color: #fff;
+}
+.ant-menu-submenu:hover
+  > .ant-menu-submenu-title
+  > .ant-menu-submenu-expand-icon,
+.ant-menu-submenu:hover > .ant-menu-submenu-title > .ant-menu-submenu-arrow {
+  color: #fff;
+}
+
+.ant-menu-submenu-title {
+  color: white;
+}
+
+.ant-menu-sub.ant-menu-inline {
+  background: #e8f6f9;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #1d5e6d;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-active {
+  background-color: #1d5e6d;
+}
+
+.ant-menu-submenu-open {
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #fbfcfc;
+  }
+}
+.ant-menu-submenu-open {
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-active {
+    background-color: #fbfcfc;
+  }
+}
+.ant-menu-submenu-popup {
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-active,
+  .ant-menu-item-active:hover {
+    background-color: #1d5e6d;
+    span {
+      color: #fff !important;
+    }
+  }
+}
+
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+  border-right: 3px solid #40bb93;
+}

@@ -1,0 +1,10 @@
+.ant-tabs {
+  height: 100%;
+}
+.ant-tabs > .ant-tabs-nav,
+.ant-tabs > div > .ant-tabs-nav {
+  background: #d3dee5;
+  > :first-child {
+    margin-top: 74px;
+  }
+}
